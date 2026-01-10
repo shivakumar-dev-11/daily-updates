@@ -1,0 +1,90 @@
+Data Types
+1. User-defined Data Types
+
+a. Array
+b. Object
+c. Functions
+
+2. Pre-defined Data Types
+
+a. String
+b. Boolean
+c. Numbers
+d. Null / Undefined
+
+Functions
+
+Functions are a collection of statements used to perform a task.
+
+Events
+
+User interactions with the application are called events.
+
+Examples:
+
+onclick
+
+onChange
+
+onSubmit
+
+onReset
+
+Operators
+1. Arithmetic Operators
+
++ , - , * , / , ++ , -- , etc
+
+2. Logical Operators
+
+&& , || , !
+
+3. Comparison Operators
+
+>= , <= , < , > , == , === , ? (ternary operator)
+
+4. Assignment Operators
+
+= , += , -= , /=
+
+
+switch
+if–else Syntax
+if (user === loggedIn) {
+  console.log('hello user');
+} else {
+  console.log('please login');
+}
+
+if (dark) {
+  giveDark;
+} else if (white) {
+  giveWhite;
+} else {
+  default;
+}
+
+switch Statement
+
+Syntax:
+
+switch (value) {
+  case 'some case': {
+    doThis;
+    break;
+  }
+
+  case 'some other case': {
+    doThis;
+    break;
+  }
+
+  case 'nothing': {
+    // don't do anything
+    break;
+  }
+
+  default: {
+    stayInGroundFloor;
+  }
+}
