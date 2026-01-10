@@ -25,3 +25,7 @@ console.log(vehicles);
 let colors = ["red", "blue", "green"];
 console.log(colors.includes("blue")); // true
 console.log(colors.includes("yellow")); // false
+
+let animals = ["cat", "dog", "rabbit"];
+console.log(animals.includes("dog")); // true
+console.log(animals.includes("lion")); // false
