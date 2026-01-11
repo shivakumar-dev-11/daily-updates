@@ -37,3 +37,9 @@ document.write("Hello World");
 var name = "Shiva"; // old method
 let age = 20; // recommended
 const country = "India"; // cannot be changed
+
+let name = "Shiva"; // String
+let age = 21; // Number
+let isStudent = true; // Boolean
+let x = null; // Null
+let y; // Undefined
