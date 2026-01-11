@@ -29,3 +29,7 @@ console.log(colors.includes("yellow")); // false
 let animals = ["cat", "dog", "rabbit"];
 console.log(animals.includes("dog")); // true
 console.log(animals.includes("lion")); // false
+
+console.log("Hello, JavaScript!");
+alert("Welcome!");
+document.write("Hello World");
