@@ -33,3 +33,7 @@ console.log(animals.includes("lion")); // false
 console.log("Hello, JavaScript!");
 alert("Welcome!");
 document.write("Hello World");
+
+var name = "Shiva"; // old method
+let age = 20; // recommended
+const country = "India"; // cannot be changed
