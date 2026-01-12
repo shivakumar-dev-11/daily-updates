@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maths Operations</title>
+    <style>
+      .container {
+        background-color: antiquewhite;
+        min-height: 100vh;
+      }
+      .head {
+        padding-top: 100px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .results {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body class="container">
+    <div class="head">
+      <h1>Operations Calculator</h1>
+      <input id="numberInput" type="number" placeholder="Enter number" />
+    </div>
+
+    <div class="buttons">
+      <button type="button" onclick="checkPrime()">Prime</button>
+      <button type="button" onclick="calculateSum()">Sum</button>
+      <button type="button" onclick="checkEven()">Even</button>
+      <button type="button" onclick="checkOdd()">Odd</button>
+      <button type="button" onclick="checkArmstrong()">Armstrong</button>
+      <button type="button" onclick="checkPalindrome()">Palindrome</button>
+      <button type="button" onclick="clearInput()">Clear</button>
+    </div>
+
+    <div class="results">
+      <h2 id="result">Result will appear here</h2>
+    </div>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
