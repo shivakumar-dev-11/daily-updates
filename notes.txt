@@ -88,3 +88,54 @@ switch (value) {
     stayInGroundFloor;
   }
 }
+
+
+1.7 Looping Statements
+
+Looping statements execute a block of code repeatedly until the condition becomes false.
+
+Types of loops:
+
+for
+
+while
+
+do-while
+
+for-in
+
+1. For Loop
+Syntax:
+for (initialisation; condition; increment/decrement) {
+  // logic statements
+}
+
+2. For-in Loop
+
+for-in loop is used only to iterate through objects.
+
+for, while, and do-while loops are generally used to iterate through arrays.
+
+for-in loop iterates through object keys.
+
+Difference:
+
+Arrays → iterated based on index
+
+Objects → iterated from starting key to ending key
+
+Syntax:
+for (var key in objectName) {
+  objectName[key]; // returns the value of that key
+}
+
+Example: for-in loop with Object
+const exampleObj = {
+  x: 1,
+  y: 2,
+  z: 3
+};
+
+for (var key in exampleObj) {
+  console.log(exampleObj[key]);
+}
