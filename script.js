@@ -43,3 +43,9 @@ let age = 21; // Number
 let isStudent = true; // Boolean
 let x = null; // Null
 let y; // Undefined
+
+function greet() {
+  console.log("Hello, welcome!");
+}
+
+greet(); // calling the function
