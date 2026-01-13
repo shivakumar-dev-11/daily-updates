@@ -139,3 +139,87 @@ const exampleObj = {
 for (var key in exampleObj) {
   console.log(exampleObj[key]);
 }
+
+
+1.8 Array Methods
+
+push()
+→ Adds a value at the last index position of an array.
+
+pop()
+→ Removes a value from the last index position of an array.
+
+arrayName.toString()
+→ Converts the whole array into a string.
+
+splice()
+→ Used to add/remove elements in an array.
+Syntax:
+
+splice(indexPosition, deleteCount, newValue)
+
+Functions (Very Very Important)
+1. Named Function / Function Constructor
+Syntax
+function functionName() {
+  return ...;
+}
+
+Explanation
+
+Used to trigger a function whenever needed in the application.
+
+It can be called any number of times.
+
+2. IIFE (Immediately Invoked Function Expression)
+Definition
+
+A function which is invoked/called by itself.
+
+It executes only once, because we cannot call it again externally.
+
+Syntax
+(function(arg1, arg2, arg3, ..., argn) {
+  // statements we want to execute
+})(param1, param2, param3, ..., paramn);
+
+
+👉 Here, we are defining and calling the function at the same time.
+
+Important Point
+
+The function does not have a name because we don’t call it externally.
+
+3. Anonymous Function
+Definition
+
+A function without a name is called an Anonymous Function.
+
+Syntax
+var x = function(params) {
+  // statements
+  return 1;
+};
+
+var x = 1;
+
+Usage
+
+Mainly used inside objects.
+
+Also used when we want to write one function inside another function.
+
+4. Callback Function
+Definition
+
+A function which is passed as a parameter/argument to another function is called a Callback Function.
+
+Syntax
+function a() {
+  // statements
+}
+
+function b(a) {
+  // statements
+  // this will be called callback function
+}
