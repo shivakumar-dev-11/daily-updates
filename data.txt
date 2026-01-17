@@ -1,0 +1,87 @@
+Client–Server Communication Flow
+Components
+
+ Frontend → Client
+
+ Backend → Server
+
+Database
+
+Communication Flow
+
+ Frontend (Client) sends a request to the Backend (Server)
+
+ Request type: HTTP / HTTPS
+
+ Data format: JSON parsed format / JSON object
+
+ The request travels through the network / internet.
+
+ Backend (Server) processes the request
+
+ Communicates with the Database to fetch or store data.
+
+ Backend sends a response back to the Frontend
+
+ Response format: JSON parsed format
+
+Network & Protocols
+
+ To communicate between frontend and backend, we need the network / internet.
+
+ The network uses two main protocols:
+
+HTTP
+
+ Plain text format
+
+HTTPS
+
+ Encrypted format (used for security)
+
+AJAX
+
+ To work with HTTP/HTTPS requests in the frontend, we use AJAX.
+
+ AJAX allows sending and receiving data without reloading the page.
+
+ JSON and Network Understanding
+
+ The network cannot understand JavaScript objects or arrays.
+
+ The network can only understand strings.
+
+So:
+
+ Objects must be converted to strings before sending.
+
+ Strings must be converted back to objects after receiving.
+
+JSON Methods
+ While Sending Request
+
+JSON.stringify()
+
+  Converts JavaScript objects or arrays into a string
+
+ Used before sending data over the network
+
+ While Receiving Response
+
+JSON.parse()
+
+ Converts received string data back into a JavaScript object
+
+  Used after receiving data in frontend or backend
+
+Simple Summary
+
+ Frontend ↔ Backend communication happens via HTTP/HTTPS
+
+ Data format used is JSON
+
+ Network understands only strings
+
+ JSON.stringify() → send data
+
+ JSON.parse() → read received data
