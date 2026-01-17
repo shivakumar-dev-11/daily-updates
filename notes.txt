@@ -223,3 +223,38 @@ function b(a) {
   // statements
   // this will be called callback function
 }
+
+
+Pre-defined Functions:
+
+setTimeout
+
+setInterval
+
+These are the pre-defined functions which are provided for us.
+
+Asynchronous operations:
+
+Means it will be executed at some other time.
+
+Synchronous operations
+
+(Executed immediately, one after another)
+
+JavaScript Code (setTimeout & setInterval Example):
+<script>
+  function displayText() {
+    document.getElementById("timeout-text").innerHTML =
+      "This is a dynamic text coming from set timeout";
+  }
+
+  setTimeout(displayText, 3000);
+
+  function intervalText() {
+    console.log("This is interval text");
+  }
+
+  setInterval(intervalText, 5000);
+
+  console.log("another text");
+</script>
