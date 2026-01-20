@@ -43,6 +43,7 @@
         margin-left: 50px;
         display: inline-block;
         vertical-align: bottom;
+        color: yellow;
       }
       .sales {
         border: 2px solid black;
@@ -53,6 +54,7 @@
         padding-left: 10px;
         padding-right: 10px;
         display: flex;
+        gap: 50px;
       }
       .categories {
         height: 30px;
@@ -61,6 +63,7 @@
         margin-left: 50px;
         display: inline-block;
         vertical-align: bottom;
+        color: yellow;
       }
       .sales1 {
         border: 2px solid black;
@@ -73,11 +76,19 @@
         margin-left: 50px;
         display: inline-block;
         vertical-align: bottom;
+        color: yellow;
       }
       .line-chart {
         border: 2px solid black;
         margin-top: 50px;
         padding-left: 10px;
+        padding-right: 10px;
+        height: 300px;
+      }
+      .box {
+        border: 2px solid black;
+        margin-top: 50px;
+        padding-left: 400px;
         padding-right: 10px;
         height: 300px;
       }
@@ -96,31 +107,106 @@
       <div class="weekly-sales">
         <h3>weekly sales (bar graph)</h3>
 
-        <div class="bar" style="height: 45%">mon</div>
-        <div class="bar" style="height: 65%">tue</div>
-        <div class="bar" style="height: 77%">wed</div>
-        <div class="bar" style="height: 59%">thu</div>
-        <div class="bar" style="height: 75%">fri</div>
-        <div class="bar" style="height: 66%">sat</div>
-        <div class="bar" style="height: 70%">sun</div>
+        <text class="bar" style="height: 45%">mon</text>
+
+        <text class="bar" style="height: 65%">tue</text>
+        <text class="bar" style="height: 77%">wed</text>
+        <text class="bar" style="height: 59%">thu</text>
+        <text class="bar" style="height: 75%">fri</text>
+        <text class="bar" style="height: 66%">sat</text>
+        <text class="bar" style="height: 70%">sun</text>
       </div>
     </div>
     <div class="top-categories">
-      <div class="sales" style="padding: 0px 300px 10px 10px">
+      <div class="sales" style="padding: 0px 400px 10px 10px">
         <h3>Top selling categories</h3>
-        <div class="categories" style="width: 160%"></div>
-        <div class="categories" style="width: 180%"></div>
-        <div class="categories" style="width: 200%"></div>
+        <div>
+          <h4>vegetables and fruits</h4>
+          <text class="categories" style="width: 80%"> 10,000</text>
+        </div>
+        <div>
+          <h4>Dairy</h4>
+          <text class="categories" style="width: 100%">15,000</text>
+        </div>
+        <div>
+          <h4>Others</h4>
+          <text class="categories" style="width: 120%">20,000</text>
+        </div>
       </div>
-      <div class="sales1" style="padding: 0px 300px 100px 10px">
+      <div class="sales1" style="padding: 0px 400px 100px 10px">
         <h3>Stocks overview</h3>
-        <div class="categories1" style="width: 185%"></div>
-        <div class="categories1" style="width: 160%"></div>
-        <div class="categories1" style="width: 170%"></div>
+        <div>
+          <h4>Beverages</h4>
+          <text class="categories1" style="width: 85%"> 60</text>
+        </div>
+
+        <div>
+          <h4>Snacks</h4>
+          <text class="categories1" style="width: 70%"> 50</text>
+        </div>
+        <div>
+          <h4>Bakery</h4>
+          <text class="categories1" style="width: 50%"> 40</text>
+        </div>
       </div>
     </div>
-    <div class="line-chart">
-      <h3>Monthly sales Trend</h3>
+
+    <div class="box">
+      <h3>Monthly Sales Trend</h3>
+
+      <svg width="100%" height="260">
+        <!-- Axes -->
+        <line x1="50" y1="20" x2="50" y2="210" stroke="#9CA3AF" />
+        <line x1="50" y1="210" x2="650" y2="210" stroke="#9CA3AF" />
+
+        <!-- Worm / Line Graph -->
+        <polyline
+          points="
+      50,190
+      100,175
+      150,165
+      200,150
+      250,140
+      300,130
+      350,115
+      400,105
+      450,95
+      500,85
+      550,75
+      600,65"
+          fill="none"
+          stroke="#22C55E"
+          stroke-width="3"
+        />
+
+        <!-- Data Points -->
+        <circle cx="50" cy="190" r="4" />
+        <circle cx="100" cy="175" r="4" />
+        <circle cx="150" cy="165" r="4" />
+        <circle cx="200" cy="150" r="4" />
+        <circle cx="250" cy="140" r="4" />
+        <circle cx="300" cy="130" r="4" />
+        <circle cx="350" cy="115" r="4" />
+        <circle cx="400" cy="105" r="4" />
+        <circle cx="450" cy="95" r="4" />
+        <circle cx="500" cy="85" r="4" />
+        <circle cx="550" cy="75" r="4" />
+        <circle cx="600" cy="65" r="4" />
+
+        <!-- Month Labels -->
+        <text x="45" y="235">Jan</text>
+        <text x="95" y="235">Feb</text>
+        <text x="145" y="235">Mar</text>
+        <text x="195" y="235">Apr</text>
+        <text x="245" y="235">May</text>
+        <text x="295" y="235">Jun</text>
+        <text x="345" y="235">Jul</text>
+        <text x="395" y="235">Aug</text>
+        <text x="445" y="235">Sep</text>
+        <text x="495" y="235">Oct</text>
+        <text x="545" y="235">Nov</text>
+        <text x="595" y="235">Dec</text>
+      </svg>
     </div>
   </body>
 </html>
