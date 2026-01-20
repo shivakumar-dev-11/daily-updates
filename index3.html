@@ -4,6 +4,123 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: oldlace;
+      }
+      .dashboard {
+        text-align: center;
+      }
+      .category-sales {
+        border: 2px solid black;
+        padding-left: 10px;
+        padding-right: 30px;
+        display: flex;
+      }
+      #pie-chart {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid black;
+        background: conic-gradient(green 0% 40%, blue 40% 70%, orange 70% 100%);
+      }
+      .dashboard-content {
+        display: flex;
+        gap: 100px;
+        margin-top: 20px;
+      }
+      .weekly-sales {
+        border: 2px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .bar {
+        width: 30px;
+        background-color: teal;
+        margin: 20px;
+        margin-left: 50px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      .sales {
+        border: 2px solid black;
+      }
+      .top-categories {
+        margin-top: 50px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+      }
+      .categories {
+        height: 30px;
+        background-color: teal;
+        margin: 20px;
+        margin-left: 50px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      .sales1 {
+        border: 2px solid black;
+        margin-left: 120px;
+      }
+      .categories1 {
+        height: 30px;
+        background-color: teal;
+        margin: 20px;
+        margin-left: 50px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      .line-chart {
+        border: 2px solid black;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 300px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="body">
+    <div class="dashboard">
+      <h1>DASHBOARD</h1>
+    </div>
+
+    <div class="dashboard-content">
+      <div class="category-sales">
+        <h3>category sales (pie-chart)</h3>
+        <h1 id="pie-chart"></h1>
+      </div>
+      <div class="weekly-sales">
+        <h3>weekly sales (bar graph)</h3>
+
+        <div class="bar" style="height: 45%">mon</div>
+        <div class="bar" style="height: 65%">tue</div>
+        <div class="bar" style="height: 77%">wed</div>
+        <div class="bar" style="height: 59%">thu</div>
+        <div class="bar" style="height: 75%">fri</div>
+        <div class="bar" style="height: 66%">sat</div>
+        <div class="bar" style="height: 70%">sun</div>
+      </div>
+    </div>
+    <div class="top-categories">
+      <div class="sales" style="padding: 0px 300px 10px 10px">
+        <h3>Top selling categories</h3>
+        <div class="categories" style="width: 160%"></div>
+        <div class="categories" style="width: 180%"></div>
+        <div class="categories" style="width: 200%"></div>
+      </div>
+      <div class="sales1" style="padding: 0px 300px 100px 10px">
+        <h3>Stocks overview</h3>
+        <div class="categories1" style="width: 185%"></div>
+        <div class="categories1" style="width: 160%"></div>
+        <div class="categories1" style="width: 170%"></div>
+      </div>
+    </div>
+    <div class="line-chart">
+      <h3>Monthly sales Trend</h3>
+    </div>
+  </body>
 </html>
