@@ -38,14 +38,18 @@ var name = "Shiva"; // old method
 let age = 20; // recommended
 const country = "India"; // cannot be changed
 
-let name = "Shiva"; // String
-let age = 21; // Number
-let isStudent = true; // Boolean
-let x = null; // Null
-let y; // Undefined
+const userInput = "   Hello World!   ";
+console.log("Original input:");
+console.log(userInput);
 
-function greet() {
-  console.log("Hello, welcome!");
-}
+const cleanedInput = userInput.trim();
+console.log("Result of trimming whitespace from both ends:");
+console.log(cleanedInput);
 
-greet(); // calling the function
+const trimmedStart = userInput.trimStart();
+console.log("After using the trimStart() method, leading spaces removed:");
+console.log(trimmedStart);
+
+const trimmedEnd = userInput.trimEnd();
+console.log("After using the trimEnd() method, trailing spaces removed:");
+console.log(trimmedEnd);
