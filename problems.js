@@ -36,3 +36,7 @@ function checkPalindrome() {
   document.getElementById("result").innerText =
     rev === n ? "Palindrome Number" : "Not a Palindrome";
 }
+function clearInput() {
+  document.getElementById("numberInput").value = "";
+  document.getElementById("result").innerText = "Result will appear here";
+}
