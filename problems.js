@@ -8,3 +8,20 @@ function submitForm() {
   document.getElementById("wordLength").innerText =
     "Length of the word is: " + word.length;
 }
+const lowercaseWord = "camelcase";
+const camelCasedVersion =
+  lowercaseWord.slice(0, 5) + lowercaseWord[5].toUpperCase();
+console.log("Camel cased version:");
+console.log(camelCasedVersion);
+function checkArmstrong() {
+  let n = getNumber();
+  let temp = n;
+  let sum = 0;
+  while (temp > 0) {
+    let digit = temp % 10;
+    sum += digit ** 3;
+    temp = Math.floor(temp / 10);
+  }
+  document.getElementById("result").innerText =
+    sum === n ? "Armstrong Number" : "Not an Armstrong Number";
+}
