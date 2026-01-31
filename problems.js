@@ -25,3 +25,14 @@ function checkArmstrong() {
   document.getElementById("result").innerText =
     sum === n ? "Armstrong Number" : "Not an Armstrong Number";
 }
+function checkPalindrome() {
+  let n = getNumber();
+  let rev = 0,
+    temp = n;
+  while (temp > 0) {
+    rev = rev * 10 + (temp % 10);
+    temp = Math.floor(temp / 10);
+  }
+  document.getElementById("result").innerText =
+    rev === n ? "Palindrome Number" : "Not a Palindrome";
+}
