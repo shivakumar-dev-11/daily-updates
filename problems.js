@@ -52,3 +52,8 @@ function calculateSum() {
   }
   document.getElementById("result").innerText = "Sum = " + sum;
 }
+function checkEven() {
+  let n = getNumber();
+  document.getElementById("result").innerText =
+    n % 2 === 0 ? "Even Number" : "Not Even";
+}
