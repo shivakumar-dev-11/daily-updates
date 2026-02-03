@@ -111,3 +111,7 @@ console.log(`10 * 2 = ${fifthResult}`);
 
 const sixthResult = null + 22;
 console.log(`0 + 22 = ${sixthResult}`);
+const value1 = 5;
+const value2 = 10;
+const sum = value1 + value2;
+console.log("Sum of value1 and value2 is: " + sum);
