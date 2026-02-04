@@ -171,3 +171,22 @@ const maxNum = Math.max(3, 125, 55, 24);
 console.log(maxNum);
 const minNum = Math.min(6, 90, 14, 90, 2);
 console.log(minNum);
+const hasDeveloperJob = true;
+
+if (hasDeveloperJob) {
+  console.log("Timmy is employed as a developer.");
+}
+
+const isTimmyAGamer = false;
+
+if (isTimmyAGamer) {
+  console.log("Timmy loves to play World of Warcraft.");
+}
+
+const timmyAge = 18;
+
+if (timmyAge >= 16) {
+  console.log("Timmy is old enough to drive.");
+} else {
+  console.log("Timmy is not old enough to drive.");
+}
