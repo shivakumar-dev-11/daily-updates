@@ -47,6 +47,9 @@
           } else if ($(this).attr("id") == "apple") {
             str =
               "Apple is a popular fruit known for its crisp texture and sweet-tart flavor. It comes in various varieties, each with its own unique taste and color. Apples are rich in dietary fiber and antioxidants, making them a healthy choice for snacking or incorporating into salads, desserts, and sauces.";
+          } else {
+            str =
+              "Please select a fruit by clicking one of the buttons above to learn more about it.";
           }
           console.log("str", str);
           $("p").text(str);
@@ -62,6 +65,7 @@
       <button id="orange">orange</button>
       <button id="banana">banana</button>
       <button id="apple">apple</button>
+      <button id="other">other</button>
     </div>
   </body>
 </html>
