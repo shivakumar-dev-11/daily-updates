@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        color: #666;
+        line-height: 1.6;
+      }
+    </style>
+    <script
+      src="https://code.jquery.com/jquery-4.0.0.min.js"
+      integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          console.log("clicked", $(this).attr("id"));
+
+          if ($(this).attr("id") == "mango") {
+            str =
+              "Mango is a tropical stone fruit known for its sweet and juicy flavor. It is native to South Asia but is now cultivated in many parts of the world. Mangoes are rich in vitamins, minerals, and antioxidants, making them a popular choice for a healthy snack or ingredient in various dishes.";
+          } else if ($(this).attr("id") == "orange") {
+            str =
+              "Orange is a citrus fruit known for its vibrant color and refreshing taste. It is rich in vitamin C and other essential nutrients, making it a popular choice for boosting the immune system. Oranges can be eaten fresh, juiced, or used in various culinary dishes and desserts.";
+          } else if ($(this).attr("id") == "banana") {
+            str =
+              "Banana is a widely consumed fruit known for its sweet flavor and creamy texture. It is a good source of potassium, vitamin B6, and dietary fiber. Bananas are often eaten as a snack, added to smoothies, or used in baking recipes like banana bread.";
+          } else if ($(this).attr("id") == "apple") {
+            str =
+              "Apple is a popular fruit known for its crisp texture and sweet-tart flavor. It comes in various varieties, each with its own unique taste and color. Apples are rich in dietary fiber and antioxidants, making them a healthy choice for snacking or incorporating into salads, desserts, and sauces.";
+          }
+          console.log("str", str);
+          $("p").text(str);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>first assessment</h1>
+      <p>This is a paragraph for the first assessment.</p>
+      <button id="mango">mango</button>
+      <button id="orange">orange</button>
+      <button id="banana">banana</button>
+      <button id="apple">apple</button>
+    </div>
+  </body>
+</html>
