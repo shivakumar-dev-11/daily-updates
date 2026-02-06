@@ -167,10 +167,6 @@ console.log(
   "The Math.max() and Math.min() methods are used to get the maximum and minimum number from a range.",
 );
 
-const maxNum = Math.max(3, 125, 55, 24);
-console.log(maxNum);
-const minNum = Math.min(6, 90, 14, 90, 2);
-console.log(minNum);
 const hasDeveloperJob = true;
 
 if (hasDeveloperJob) {
@@ -190,3 +186,7 @@ if (timmyAge >= 16) {
 } else {
   console.log("Timmy is not old enough to drive.");
 }
+const maxNum = Math.max(3, 125, 55, 24);
+console.log(maxNum);
+const minNum = Math.min(6, 90, 14, 90, 2);
+console.log(minNum);
