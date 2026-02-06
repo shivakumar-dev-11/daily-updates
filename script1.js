@@ -181,12 +181,12 @@ if (isTimmyAGamer) {
 
 const timmyAge = 18;
 
+const maxNum = Math.max(3, 125, 55, 24);
+console.log(maxNum);
+const minNum = Math.min(6, 90, 14, 90, 2);
+console.log(minNum);
 if (timmyAge >= 16) {
   console.log("Timmy is old enough to drive.");
 } else {
   console.log("Timmy is not old enough to drive.");
 }
-const maxNum = Math.max(3, 125, 55, 24);
-console.log(maxNum);
-const minNum = Math.min(6, 90, 14, 90, 2);
-console.log(minNum);
