@@ -190,6 +190,14 @@ if (isTimmyAGamer) {
 }
 
 const timmyAge = 18;
+const numRounded = Math.round(2.7);
+console.log(numRounded);
+const numRounded2 = Math.round(11.2);
+console.log(numRounded2);
+
+console.log(
+  "The Math.max() and Math.min() methods are used to get the maximum and minimum number from a range.",
+);
 
 if (timmyAge >= 16) {
   console.log("Timmy is old enough to drive.");
@@ -225,11 +233,3 @@ function getLoanMessage(annualIncome, creditScore) {
     return "You don't qualify for any loans.";
   }
 }
-const numRounded = Math.round(2.7);
-console.log(numRounded);
-const numRounded2 = Math.round(11.2);
-console.log(numRounded2);
-
-console.log(
-  "The Math.max() and Math.min() methods are used to get the maximum and minimum number from a range.",
-);
