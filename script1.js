@@ -97,9 +97,6 @@ function checkArmstrong() {
 const firstResult = 5 + "10";
 console.log(`5 + 10 = ${firstResult}`);
 
-const secondResult = "Eight" - 5;
-console.log(`8 - 5 = ${secondResult}`);
-
 const thirdResult = true + 5;
 console.log(`1 + 5 = ${thirdResult}`);
 
