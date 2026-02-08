@@ -94,8 +94,6 @@ function checkArmstrong() {
   document.getElementById("result").innerText =
     sum === n ? "Armstrong Number" : "Not an Armstrong Number";
 }
-const firstResult = 5 + "10";
-console.log(`5 + 10 = ${firstResult}`);
 
 const thirdResult = true + 5;
 console.log(`1 + 5 = ${thirdResult}`);
