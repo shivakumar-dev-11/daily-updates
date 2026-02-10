@@ -23,3 +23,17 @@ function Numbers(num1, num2, num3) {
 
   return result;
 }
+// largest of three numbers long way
+function largestNumber(a, b, c) {
+  let largest;
+  if (a > b && a > c) {
+    largest = a;
+  } else {
+    if (b > a && b > c) {
+      largest = b;
+    } else {
+      largest = c;
+    }
+  }
+  return largest;
+}
