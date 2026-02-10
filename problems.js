@@ -37,3 +37,7 @@ function largestNumber(a, b, c) {
   }
   return largest;
 }
+//easy way to find largest number
+function largestNumber(a, b, c) {
+  return Math.max(a, b, c);
+}
