@@ -41,3 +41,8 @@ function largestNumber(a, b, c) {
 function largestNumber(a, b, c) {
   return Math.max(a, b, c);
 }
+// day 2 for problem solving
+//reverse in a string
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
