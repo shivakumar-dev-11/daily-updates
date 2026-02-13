@@ -202,5 +202,3 @@ console.log("This looks like too much junk food.");
 
 shoppingList.pop();
 console.log(getShoppingListMsg(shoppingList));
-
-console.log("It might be nice to get a dessert.");
