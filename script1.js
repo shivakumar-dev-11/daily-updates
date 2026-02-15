@@ -191,6 +191,3 @@ shoppingList.push("Grapes");
 console.log(getShoppingListMsg(shoppingList));
 
 console.log("It looks like we need to get some cooking oil.");
-
-shoppingList.unshift("Vegetable Oil");
-console.log(getShoppingListMsg(shoppingList));
