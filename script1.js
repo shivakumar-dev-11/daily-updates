@@ -184,5 +184,3 @@ shoppingList.push("Apples");
 function getShoppingListMsg(arr) {
   return `Current Shopping List: ${arr}`;
 }
-
-console.log(getShoppingListMsg(shoppingList));
