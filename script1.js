@@ -174,5 +174,3 @@ console.log(maxNum);
 const minNum = Math.min(6, 90, 14, 90, 2);
 console.log(minNum);
 console.log("Grocery shopping list");
-
-const shoppingList = [];
