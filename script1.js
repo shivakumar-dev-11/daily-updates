@@ -164,9 +164,3 @@ const hasDeveloperJob = true;
 if (hasDeveloperJob) {
   console.log("Timmy is employed as a developer.");
 }
-
-const isTimmyAGamer = false;
-
-const timmyAge = 18;
-
-const maxNum = Math.max(3, 125, 55, 24);
