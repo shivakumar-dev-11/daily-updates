@@ -138,7 +138,3 @@ console.log("Now, generate a random integer between two values.");
 
 const randomInt = Math.floor(Math.random() * (max - min) + min);
 console.log(randomInt);
-
-console.log(
-  "The Math.ceil() method rounds the value up to the nearest whole integer.",
-);
