@@ -133,8 +133,3 @@ console.log(
 
 const numRoundedDown = Math.floor(6.7);
 console.log(numRoundedDown);
-
-console.log("Now, generate a random integer between two values.");
-
-const randomInt = Math.floor(Math.random() * (max - min) + min);
-console.log(randomInt);
