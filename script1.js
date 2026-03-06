@@ -109,9 +109,3 @@ const sum = value1 + value2;
 console.log("Sum of value1 and value2 is: " + sum);
 const botName = "MathBot";
 const greeting = `Hi there! My name is ${botName} and I am here to teach you about the Math object!`;
-
-console.log(greeting);
-
-console.log(
-  "The Math.random() method returns a pseudo random number greater than or equal to 0 and less than 1.",
-);
