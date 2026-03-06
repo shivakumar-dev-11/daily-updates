@@ -106,6 +106,3 @@ console.log(`0 + 22 = ${sixthResult}`);
 const value1 = 5;
 const value2 = 10;
 const sum = value1 + value2;
-console.log("Sum of value1 and value2 is: " + sum);
-const botName = "MathBot";
-const greeting = `Hi there! My name is ${botName} and I am here to teach you about the Math object!`;
