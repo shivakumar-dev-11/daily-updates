@@ -100,7 +100,3 @@ console.log(`1 + 5 = ${thirdResult}`);
 
 const fifthResult = "10" * 2;
 console.log(`10 * 2 = ${fifthResult}`);
-
-const sixthResult = null + 22;
-console.log(`0 + 22 = ${sixthResult}`);
-const value1 = 5;
