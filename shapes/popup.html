@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+
+<body>
+    <form>
+        <p> Virat Kohli is one of the most famous and successful cricketers in the world. He was born on November 5,
+            1988,
+            in Delhi,
+            India. Kohli is known for his aggressive batting style, consistency, and strong leadership skills. He has
+            played
+            for the
+            India national cricket team in all formats of cricket and has served as the team’s captain in the past. 🏏
+
+            Kohli made his international debut in 2008 and quickly became one of the best batsmen in modern cricket. He
+            has
+            scored
+            many centuries across Test matches, One Day Internationals (ODIs), and T20 matches. Because of his fitness,
+            dedication,
+            and passion for the game, he is often considered one of the greatest batsmen of his generation.
+
+            In the Indian Premier League (IPL), Kohli has been a key player for the Royal Challengers Bengaluru. He
+            holds
+            several
+            IPL records, including being one of the highest run-scorers in the tournament’s history. His outstanding
+            performances
+            have also helped India in major tournaments such as the ICC Cricket World Cup.
+
+            Apart from cricket, Kohli is admired for his discipline, fitness, and charity work. He inspires millions of
+            young people
+            to stay healthy, work hard, and follow their dreams.</p>
+        <input type="number" id="age" placeholder="enter your age ">
+
+
+        <button type="button" onclick="checkAge()"> submit</button>
+        <p id="message"></p>
+    </form>
+    <script>
+
+        function checkAge() {
+
+
+            let msg = document.getElementById("message");
+            let values = document.getElementById("age").value;
+            if (values >= 18) {
+                msg.innerHTML = "entry is succesfull";
+            }
+            else {
+                msg.innerHTML = "minimum age is required";
+            }
+
+            if (values == "") {
+                msg.innerHTML = " enter your age "
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>
