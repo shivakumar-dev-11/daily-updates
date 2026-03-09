@@ -244,10 +244,3 @@ function calculateSum() {
   }
   document.getElementById("result").innerText = "Sum = " + sum;
 }
-function checkPrime() {
-  let n = getNumber();
-  if (n < 2) {
-    document.getElementById("result").innerText = "Not a Prime Number";
-    return;
-  }
- 
