@@ -250,11 +250,4 @@ function checkPrime() {
     document.getElementById("result").innerText = "Not a Prime Number";
     return;
   }
-  for (let i = 2; i < n; i++) {
-    if (n % i === 0) {
-      document.getElementById("result").innerText = "Not a Prime Number";
-      return;
-    }
-  }
-  document.getElementById("result").innerText = "Prime Number";
-}
+ 
