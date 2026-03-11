@@ -235,12 +235,3 @@ function calculateSum() {
 function getNumber() {
   return Number(document.getElementById("numberInput").value);
 }
-
-function calculateSum() {
-  let n = getNumber();
-  let sum = 0;
-  for (let i = 1; i <= n; i++) {
-    sum += i;
-  }
-  document.getElementById("result").innerText = "Sum = " + sum;
-}
