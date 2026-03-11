@@ -230,8 +230,4 @@ function calculateSum() {
   for (let i = 1; i <= n; i++) {
     sum += i;
   }
-  document.getElementById("result").innerText = "Sum = " + sum;
-}
-function getNumber() {
-  return Number(document.getElementById("numberInput").value);
-}
+  
