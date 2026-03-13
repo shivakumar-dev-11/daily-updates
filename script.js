@@ -214,12 +214,3 @@ console.log(upperCaseInput);
 const lowerCaseInput = cleanedInput.toLowerCase();
 console.log("Result of using the toLowerCase() method:");
 console.log(lowerCaseInput);
-
-const lowercaseWord = "camelcase";
-const camelCasedVersion =
-  lowercaseWord.slice(0, 5) + lowercaseWord[5].toUpperCase();
-console.log("Camel cased version:");
-console.log(camelCasedVersion);
-function getNumber() {
-  return Number(document.getElementById("numberInput").value);
-}
