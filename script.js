@@ -188,9 +188,3 @@ console.log(learningSentence);
 
 const repeatedLove = "love ".repeat(3);
 console.log(repeatedLove);
-
-const newSentence = `I ${repeatedLove} learning.`;
-console.log(newSentence);
-const userInput = "   Hello World!   ";
-console.log("Original input:");
-console.log(userInput);
