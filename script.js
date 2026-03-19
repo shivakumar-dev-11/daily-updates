@@ -165,7 +165,3 @@ const favoriteSubject = "Computer Science";
 
 const favoriteSubjectSentence =
   "My favorite subject is " + favoriteSubject + ".";
-console.log(favoriteSubjectSentence);
-const originalString = "I love cats.";
-console.log("Original string:");
-console.log(originalString);
