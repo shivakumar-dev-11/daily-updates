@@ -132,8 +132,3 @@ console.log(
 );
 
 console.log(learningIsFunSentence.indexOf("Learning"));
-
-console.log(learningIsFunSentence.indexOf("fun"));
-console.log(learningIsFunSentence.indexOf("learning"));
-console.log("Hi there!");
-console.log("I am excited to talk to you.");
