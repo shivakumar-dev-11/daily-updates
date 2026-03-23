@@ -121,14 +121,3 @@ console.log(subject[1]);
 console.log(
   `Here is an example of accessing the last letter in the word ${subject}.`,
 );
-
-const lastCharacter = subject[subject.length - 1];
-console.log(lastCharacter);
-
-const learningIsFunSentence = "Learning is fun.";
-
-console.log(
-  "Here are examples of finding the positions of substrings in the sentence.",
-);
-
-console.log(learningIsFunSentence.indexOf("Learning"));
