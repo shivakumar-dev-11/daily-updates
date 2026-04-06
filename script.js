@@ -85,8 +85,3 @@ console.log(`The first word is "${greetingWord}".`);
 const endPunctuation = message.slice(-1);
 console.log(`The ending punctuation mark is a "${endPunctuation}"`);
 console.log("Hi there!");
-
-const botName = "teacherBot";
-
-const greeting = `My name is ${botName}.`;
-console.log(greeting);
