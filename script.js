@@ -81,7 +81,3 @@ console.log(`The word "${platform}" was sliced from the message.`);
 
 const greetingWord = message.slice(0, 7);
 console.log(`The first word is "${greetingWord}".`);
-
-const endPunctuation = message.slice(-1);
-console.log(`The ending punctuation mark is a "${endPunctuation}"`);
-console.log("Hi there!");
