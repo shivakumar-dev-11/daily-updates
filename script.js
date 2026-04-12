@@ -53,6 +53,3 @@ console.log(trimmedStart);
 const trimmedEnd = userInput.trimEnd();
 console.log("After using the trimEnd() method, trailing spaces removed:");
 console.log(trimmedEnd);
-const fccSentence = "freeCodeCamp is a great place to learn web development.";
-
-console.log("Here are some examples of the includes() method:");
